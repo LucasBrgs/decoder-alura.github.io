@@ -59,5 +59,4 @@ function copiar() {
     document.execCommand("copy");
     document.getElementById("entrada").value = "";
     document.getElementById("caixade-saida").style.visibility = "hidden";
-    document.getElementById("entrada").focus();
 }
