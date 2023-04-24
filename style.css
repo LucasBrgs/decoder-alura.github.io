@@ -167,6 +167,253 @@ footer {
     margin-left: 15px;
 }
 
+@media (max-width: 420px) {
+    .logo {
+        width: 0px;
+        margin: 20px 0 0 10px;
+    }
+
+    .caixadeentrada {
+        margin: 25px 0 0 5px;
+        font-size: 32px;
+        height: 80vw;
+    }
+
+    .observacao {
+        margin: -350px 0 0 10px;
+        font-size: 19px;
+    }
+    
+    .codificar {
+        margin-left: 40px;
+    }
+    
+    .decodificar {
+        margin-right: 25px;
+    }    
+
+    .mensagem-vazia {
+        margin: -50px 0 0 20px;
+        height: 70vw;
+        width: 92vw;
+        box-shadow: 0 7px 7px 7px rgb(182, 177, 177);
+    }
+
+    .sem-mensagem {
+        display: none;
+    }
+
+    .mensagem-vazia > .first-h2 {
+        padding-top: 70px;
+    }
+
+    .mensagem-vazia > h2 {
+        font-size: 24px;
+    }
+    
+    .mensagem-vazia > p {
+        font-size: 21px;
+        margin-top: 5px;
+    }
+
+    .saida {
+        margin: -240px 0 0 30px;
+    }
+
+    #saida {
+        pointer-events:all;
+    }
+
+    .caixadesaida {
+        width: 88vw;
+        height: 45vw;
+        font-size: 20px;
+    }
+
+    .saida > div > button {
+        padding: 5px 25px 5px 25px;
+        width: 40vw;
+        font-size: 20px;
+        margin: -1px 0 0 90px;
+    }    
+
+    footer {
+        margin-top: 290px;
+        font-size: 20px;
+    }
+    
+    .informacao-final {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 400px) and (min-height: 850px) {
+    .logo {
+        width: 30px;
+        margin: 20px 0 0 10px;
+    }
+
+    .caixadeentrada {
+        margin: 25px 0 0 5px;
+        font-size: 32px;
+        height: 80vw;
+    }
+
+    .observacao {
+        margin: -350px 0 0 10px;
+        font-size: 17px;
+    }
+    
+    .codificar {
+        margin-left: 40px;
+    }
+    
+    .decodificar {
+        margin-right: 25px;
+    }    
+
+    .mensagem-vazia {
+        margin: -50px 0 0 20px;
+        height: 60vw;
+        width: 92vw;
+        box-shadow: 0 7px 7px 7px rgb(182, 177, 177);
+    }
+
+    .sem-mensagem {
+        display: none;
+    }
+
+    .mensagem-vazia > .first-h2 {
+        padding-top: 70px;
+    }
+
+    .mensagem-vazia > h2 {
+        font-size: 24px;
+    }
+    
+    .mensagem-vazia > p {
+        font-size: 21px;
+        margin-top: 5px;
+    }
+
+    .saida {
+        margin: -200px 0 0 30px;
+    }
+
+    #saida {
+        pointer-events:all;
+    }
+
+    .caixadesaida {
+        width: 88vw;
+        height: 38vw;
+        font-size: 20px;
+    }
+
+    .saida > div > button {
+        padding: 5px 25px 5px 25px;
+        width: 40vw;
+        font-size: 20px;
+        margin: -1px 0 0 90px;
+    }    
+
+    footer {
+        margin-top: 290px;
+        font-size: 20px;
+    }
+    
+    .informacao-final {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 400px) and (max-height: 850px) {
+    .logo {
+        width: 30px;
+    }
+
+    .caixadeentrada {
+        resize: none;
+        margin: 25px 0 0 5px;
+        font-size: 22px;
+        height: 50vw;
+    }
+
+    .observacao {
+        display: flex;
+        margin: -250px 0 0 10px;
+        font-size: 12px;
+    }
+
+    .observacao > img {
+        margin-right: 6px;
+        width: 12px;
+    }
+
+    .codificar, .decodificar {
+        padding: 10px 12px 10px 12px;
+        font-size: 10px;
+    }
+
+    .codificar {
+        margin-left: 20px;
+    }
+    
+    .decodificar {
+        margin-right: 17px;
+    }    
+
+    .mensagem-vazia {
+        margin: -270px 0 0 20px;
+        height: 60vw;
+    }
+
+    .sem-mensagem {
+        display: none;
+    }
+
+    .mensagem-vazia > .first-h2 {
+        padding-top: 35px;
+    }
+
+    .mensagem-vazia > h2 {
+        font-size: 18px;
+    }
+    
+    .mensagem-vazia > p {
+        font-size: 14px;
+    }
+
+    .saida {
+        margin: -150px 0 0 24px;
+    }
+
+    .caixadesaida {
+        height: 39vw;
+        font-size: 20px;
+    }
+
+    .saida > div > button {
+        padding: 5px 25px 5px 25px;
+        font-size: 10px;
+        margin: 10px 0 0 70px;
+    }    
+
+    footer {
+        margin-top: 200px;
+        font-size: 12px;
+    }
+    
+    .informacao-final {
+        margin-left: 30px;
+    }
+
+    .github, .linkedin {
+        width: 15px;
+        margin-top: -2px;
+    }
+}
+
 @media (min-width: 1440px) {
 
     body {
@@ -353,21 +600,13 @@ footer {
     }
 
     .caixadeentrada {
-        resize: none;
         margin: 50px 0 0 20px;
         width: 92vw;
         height: 50vw;
-        padding: 12px;
-        border-radius: 15px;
-        border: none;
-        background: transparent;
-        outline: none;
-        color: #0A3871;
         font-size: 50px;
     }
 
     .observacao {
-        display: flex;
         margin: -445px 0 0 20px;
         font-size: 30px;
     }
@@ -379,35 +618,24 @@ footer {
 
     .opcoes {
         margin-top: 20px;
-        display: flex;
-        justify-content: space-between;
     }
 
     .codificar, .decodificar {
         padding: 15px 30px 15px 30px;
         width: 40vw;
         font-size: 27px;
-        border-radius: 35px;
-        font-weight: bold;
     }
     
     .codificar {
         margin-left: 40px;
-        background: #0A3871;
-        color: #FFFFFF;
     }
     
     .decodificar {
         margin-right: 70px;
-        background: #D8DFE8;
-        color: #0A3871;
-        border-color: #0A3871;
     }    
 
     .mensagem-vazia {
-        background-color: white;
         margin: 65px 0 0 20px;
-        border-radius: 25px;
         height: 40vw;
         width: 90vw;
         box-shadow: 0 7px 7px 7px rgb(182, 177, 177);
@@ -423,58 +651,36 @@ footer {
 
     .mensagem-vazia > h2 {
         font-size: 30px;
-        color: #343A40;
-        font-weight: bold;
-        text-align: center;
     }
     
     .mensagem-vazia > p {
         font-size: 25px;
-        color: #495057;
-        text-align: center;
         margin-top: 5px;
     }
 
     .saida {
-        display: block;
         margin: -300px 0 0 30px;
-        visibility: hidden;
     }
     
     .caixadesaida {
-        resize: none;
         width: 88vw;
         height: 30vw;
-        border: none;
-        border-radius: 15px;
         font-size: 30px;
-        color: #495057;
-        outline: none;
     }
 
     .saida > div > button {
         padding: 10px 25px 10px 25px;
         width: 40vw;
         font-size: 25px;
-        border-radius: 35px;
-        font-weight: bold;
-        margin: 8px 0 0 180px;
-        color: #0A3871;
-        background: white;
-        border-color: #0A3871;
-        
+        margin: 8px 0 0 180px;        
     }    
 
     footer {
-        margin-top: 340px;
-        text-align: center;
+        margin-top: 355px;
         font-size: 25px;
-        font-weight: bold;
-        color: #343A40;
     }
     
     .informacao-final {
-        display: flex;
         margin-left: 200px;
     }
     
@@ -824,6 +1030,46 @@ footer {
 
     .github, .linkedin {
         width: 15px;
+        margin-top: -2px;
+    }
+}
+
+@media (max-width: 390px) {
+    .observacao {
+        margin: -270px 0 0 10px;
+    }
+
+    .mensagem-vazia {
+        margin: -230px 0 0 20px;
+        height: 50vw;
+    }
+
+    .saida {
+        margin: -185px 0 0 24px;
+    }
+
+    .caixadesaida {
+        height: 40vw;
+        font-size: 20px;
+    }
+
+    .saida > div > button {
+        padding: 5px 25px 5px 25px;
+        font-size: 10px;
+        margin: 5px 0 0 90px;
+    }    
+
+    footer {
+        margin-top: 245px;
+        font-size: 18px;
+    }
+    
+    .informacao-final {
+        margin-left: 50px;
+    }
+
+    .github, .linkedin {
+        width: 20px;
         margin-top: -2px;
     }
 }
