@@ -1,0 +1,78 @@
+@media screen and (max-width: 768px) {
+    
+    .container {
+        flex-direction: column;
+    }
+
+    .entrada {
+        top: 2%;
+        width: 90%;
+        height: 45%;
+    }
+    
+    .saida {
+        top: 10%;
+        width: 85%;
+        height: 40%;
+    }
+    
+    #caixa-de-entrada {
+        position: absolute;
+    }
+
+    .opcoes {
+        top: 95%;
+    }
+
+    .opcao1, .opcao2 {
+        height: 6vh;
+    }
+
+    .copy {
+        margin-top: 10px;
+    }
+
+    .sem-mensagem {
+        position: absolute;
+        top: 50%;
+        left: 8%;
+        margin-top: -100.6px;
+        margin-left: 15%;
+    }
+
+    .sem-mensagem img {
+        width: 80%;
+        left: 50%;
+        margin-top: -29%;
+    }
+
+    .sem-mensagem h1+p {
+        display: none;
+    }
+
+    .sem-mensagem p+p {
+        display: initial;
+        font-size: 25px;
+    }
+
+    footer {
+        top: 93%;
+        left: calc(50% - 205px);
+    }
+}
+
+@media screen and (max-width:460px) {
+    .sem-mensagem img {
+        display: none;
+    }
+
+    .opcao1, .opcao2 {
+        font-size: 100%;
+    }
+
+    footer {
+        left: 50%;
+        margin-left: -150px;
+        margin-top: 15px;
+    }
+}

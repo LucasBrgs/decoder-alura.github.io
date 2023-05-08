@@ -1,70 +1,59 @@
 <!DOCTYPE html>
-
 <html lang="pt-br">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width">
-
-        <title>Decodificador Alura</title>
-        <link rel="icon" href="icone-site.svg">
-
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
-
-        <script src="script.js"></script>
-    </head>
-
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Decoder</title>
+    <link rel="icon" href="icone-site.svg">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="script" href="script.js">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="icone-site.svg" alt="Icone da Alura" class="imagem-logo">
+        </div>
+    </header>    
     <body>
-        <header>
-            <img src="icone-site.svg" alt="Logo da Alura" class="logo">
-        </header>
-
-        <main>
+        <section>
             <div class="container">
-                <div class="div-entrada">
-                    <textarea class="caixadeentrada" id="entrada" autofocus placeholder="Digite seu texto"></textarea>
+                <div class="entrada">
+                    <textarea name="entrada" id="caixa-de-entrada" cols="30" rows="10" placeholder="Digite seu texto aqui..." autofocus></textarea>
+                    <div class="opcoes">
+                        <button class="opcao1">Criptografar</button>
+                        <button class="opcao2">Descriptografar</button>
+                    </div>
                 </div>
-                <div class="mensagem-vazia" id="div-msg-vazia">
-                    <img src="imagem-pessoa.svg" alt="Esperando resposta..." class="sem-mensagem">
-                    <h2 class="first-h2">Nenhuma mensagem</h2>
-                    <h2>encontrada</h2>
-                    <p>Digite um texto que você deseja</p>
-                    <p>criptografar ou descriptografar.</p>
-                </div>
-            </div>
-            
-            <div class="saida" id="caixade-saida">
-                <textarea class="caixadesaida" id="saida" readonly></textarea>
-                <div>
-                    <button id="copiar" onclick="copiar()">Copiar</button>
-                </div>
-            </div>
-
-            <div class="observacao">
-                <img src="atencao.svg" alt="Atenção" class="atencao">
-                <p>Apenas letras minúsculas e sem acento</p>
-            </div>
-
-            <div class="opcoes">
-                <div>
-                    <button class="codificar" onclick="criptografar()">Criptografar</button>
-                </div>
-                <div>
-                    <button class="decodificar" onclick="descriptografar()">Descriptografar</button>
+                <div class="saida">
+                    <textarea name="saida" class="caixa-de-saida" cols="10" rows="5" ></textarea>
+                    <div class="com-mensagem">
+                        <button class="copy">Copiar</button>
+                    </div>
+                    <div class="sem-mensagem">
+                        <img src="imagem-pessoa.svg" alt="Imagem de uma pessoa">
+                        <h1>Nenhuma mensagem<br>encontrada</h1>
+                        <p>Por favor, digite algo na caixa ao lado.</p>
+                        <p>Por favor, digite algo na caixa acima.</p>
+                    </div>
                 </div>
             </div>
-        </main>
-
+        </section>
         <footer>
-            <div class="informacao-final">
-                Developed by Lucas Borges
-                <div>
-                    <a href="https://www.linkedin.com/in/lucas-borges-0aa913236" target="_blank"><img src="linkedin.png" alt="Linkedin" class="linkedin"></a>
-                    <a href="https://github.com/LucasBrgs" target="_blank"><img src="github.png" alt="GitHub" class="github"></a>
-                </div>
-            </div>
+            <h1>Developed by Lucas Borges</h1>
+            <a href="https://www.linkedin.com/in/lucas-brgs/" target="_blank">
+                <img src="linkedin.png" alt="Linked In">
+            </a>
+            <a href="https://github.com/LucasBrgs" target="_blank">
+                <img src="github.png" alt="Github">
+            </a>
         </footer>
     </body>
+    <footer>
+
+    </footer>
+</body>
 </html>
