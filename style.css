@@ -1,152 +1,154 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
 * {
-    font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
-    background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 
 .logo {
-    position: absolute;
-    justify-content: baseline;
-    top: 2%;
-    left: 2%;
-    margin: -16px 0 0 -23,5px;
+  position: absolute;
+  justify-content: baseline;
+  top: 2%;
+  left: 2%;
+  margin: -16px 0 0 -23, 5px;
 }
 
 .container {
-    display: flex;
-    position: relative;
-    width: 97vw;
-    height: 90vh;
-    margin: 30px 0 0 20px;
-    z-index: 0;
+  display: flex;
+  position: relative;
+  width: 97vw;
+  height: 90vh;
+  margin: 30px 0 0 20px;
 }
 
 .entrada {
-    position: relative;
-    width: 60%;
-    height: 100%;
+  position: relative;
+  width: 60%;
+  height: 100%;
 }
 
 .saida {
-    position: relative;
-    left: calc(60% - 55%);
-    width: 30%;
-    height: 100%;
+  position: relative;
+  left: calc(60% - 55%);
+  width: 30%;
+  height: 100%;
 }
 
 #caixa-de-entrada {
-    resize: none;
-    position: absolute;
-    top: 5%;
-    left: 8%;
-    width: 90%;
-    height: 79%;
-    padding: 12px;
-    border-radius: 20px;
-    border: none;
-    outline: none;
-    font-size: 170%;
-    text-transform: lowercase;
-    background-color: transparent;
+  resize: none;
+  position: absolute;
+  top: 5%;
+  left: 8%;
+  width: 90%;
+  height: 79%;
+  padding: 12px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-size: 23px;
+  text-transform: lowercase;
+  background-color: transparent;
 }
 
 #caixa-de-entrada::placeholder {
-    text-transform: none;
+  text-transform: none;
 }
 .opcoes {
-    position: inherit;
-    top: 90%;
-    left: calc(50% - 35.5%);
+  position: inherit;
+  top: 90%;
+  left: calc(50% - 35.5%);
 }
 
-.opcao1, .opcao2 {
-    font-size: 140%;
-    width: 40%;
-    height: 7vh;
-    border-radius: 20px;
+.opcao1,
+.opcao2 {
+  font-size: 20px;
+  width: 40%;
+  height: 7vh;
+  border-radius: 20px;
 }
 
 .opcao1 {
-    margin-left: -15px;
+  margin-left: -15px;
 }
 
 .opcao2 {
-    margin-left: 15px;
+  margin-left: 15px;
 }
 
-.opcao1:active, .opcao2:active, .copy:active {
-    transform: scale(0.97);
+.opcao1:active,
+.opcao2:active,
+.copy:active {
+  transform: scale(0.97);
 }
 
 .caixa-de-saida {
-    width: 100%;
-    height: 87%;
-    border-radius: 20px;
-    resize: none;
-    outline: none;
-    box-shadow: 2px 2px rgb(39, 34, 34);
-    padding: 12px;
-    font-size: 170%;
+  width: 100%;
+  height: 87%;
+  border-radius: 20px;
+  resize: none;
+  outline: none;
+  box-shadow: 2px 2px rgb(39, 34, 34);
+  padding: 12px;
+  font-size: 20px;
 }
 
 .com-mensagem {
-    position: absolute;
-    top: 92%;
-    left: calc(50% - 75px);
+  position: absolute;
+  top: 92%;
+  left: calc(50% - 75px);
 }
 
 .copy {
-    font-size: 140%;
-    width: 200%;
-    border-radius: 20px;
-    height: 6vh;
-    display: ;
+  font-size: 20px;
+  width: 200%;
+  border-radius: 20px;
+  height: 6vh;
 }
 
 .sem-mensagem {
-    position: absolute;
-    top: calc(50% - 177.5px);
-    left: calc(50% - 168px);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: calc(50% - 190.5px);
+  left: calc(50% - 152px);
 }
 
 .sem-mensagem h1 {
-    font-size: 185%;
-    text-align: center;
+  font-size: 28px;
+  text-align: center;
 }
 
 .sem-mensagem p {
-    font-size: 130%;
-    margin-top: 10px;
-    text-align: center;
+  font-size: 21px;
+  text-align: center;
 }
 
-.sem-mensagem p+p {
-    display: none;
+.sem-mensagem p + p {
+  display: none;
 }
 
 footer {
-    display: flex;
-    position: absolute;
-    top: 96%;
-    left: calc(50% - 111px);
+  display: flex;
+  position: absolute;
+  top: 96%;
+  left: calc(50% - 111px);
 }
 
 footer a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 footer a img {
-    width: 20px;
-    height: 20px;
-    margin-right: 5px;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
 }
 
 footer h1 {
-    font-size: 130%;
-    font-weight: bold;
-    margin-right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 10px;
 }
