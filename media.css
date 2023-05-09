@@ -69,10 +69,6 @@
     font-size: 35px;
   }
 
-  footer {
-    left: 17%;
-  }
-
   footer a img {
     width: 40px;
     height: 40px;
@@ -144,10 +140,6 @@
 
   .sem-mensagem p+p {
     font-size: 25px;
-  }
-
-  footer {
-    left: 10%;
   }
 
   footer a img {
