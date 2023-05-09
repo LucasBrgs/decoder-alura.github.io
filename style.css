@@ -133,6 +133,8 @@ body {
 
 .footer {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 footer {
@@ -140,6 +142,7 @@ footer {
   position: absolute;
   bottom: 0;
   align-items: center;
+  justify-content: center;
 }
 
 footer a {
