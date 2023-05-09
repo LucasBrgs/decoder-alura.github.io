@@ -134,8 +134,8 @@ body {
 footer {
   display: flex;
   position: absolute;
-  top: 96%;
-  left: calc(50% - 111px);
+  bottom: 0;
+  justify-content: center;
 }
 
 footer a {
@@ -152,87 +152,4 @@ footer h1 {
   font-size: 20px;
   font-weight: bold;
   margin-right: 10px;
-}
-
-
-@media screen and (max-width: 768px) {
-  .container {
-    flex-direction: column;
-  }
-
-  .entrada {
-    top: 50px;
-    width: 90%;
-    height: 40%;
-  }
-
-  #caixa-de-entrada {
-    font-size: 30px;
-  }
-
-  .saida {
-    top: 15%;
-    height: 35%;
-    width: 80%;
-  }
-
-  .opcoes {
-    top: 100%;
-  }
-
-  .opcao1, .opcao2 {
-    font-size: 24px;
-  }
-
-  .caixa-de-saida {
-    font-size: 30px;
-  }
-
-  .com-mensagem {
-    top: 97%;
-    left: 40%;
-  }
-
-  .copy {
-    font-size: 24px;
-  }
-  
-  .sem-mensagem img {
-    display: none;
-  }
-
-  .sem-mensagem {
-    position: absolute;
-    top: 25%;
-    left: 10%;
-  }
-
-  .sem-mensagem h1 {
-    font-size: 50px;
-    left: 50%;
-  }
-
-  .sem-mensagem h1+p {
-    display: none;
-  }
-
-  .sem-mensagem p+p {
-    margin-top: 10px;
-    display: initial;
-    font-size: 35px;
-  }
-
-  footer {
-    top: 91%;
-    left: 17%
-  }
-
-  footer a img {
-    width: 40px;
-    height: 40px;
-  }
-
-  footer h1{
-    font-size: 35px;
-  }
 }
