@@ -292,6 +292,100 @@
   }
 }
 
+@media screen and (max-width: 500px) and (max-height: 900px) {
+  header h1 {
+    display: none;
+  }
+
+  nav a img {
+    transform: scale(1.5);
+    margin-top: 20px;
+  }
+
+  #linkedin {
+    margin-right: 25px;
+  }
+
+  #git {
+    margin-right: 20px;
+  }
+
+  .input-txt {
+    margin: 30px 0 0 -10px;
+    width: 320px;
+    height: 270px;
+  }
+
+  textarea {
+    font-size: 26px;
+  }
+
+  .attention {
+    gap: 15px;
+  }
+
+  .attention img {
+    transform: scale(1.3);
+  }
+
+  .attention p {
+    font-size: 19px;
+  }
+
+  .buttons {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  button {
+    width: 300px;
+    height: 60px;
+    font-size: 25px;
+  }
+
+  .output-txt {
+    margin: 130px 0 0 -10px;
+    height: 200px;
+    width: 320px;
+  }
+
+  .no-message {
+    top: calc(50% - 47.5px);
+    width: 344px;
+  }
+
+  #img-no-message {
+    display: none;
+  }
+
+  .no-message h2 {
+    font-size: 35px;
+  }
+
+  .no-message p {
+    font-size: 25px;
+  }
+
+  .no-message h2+p {
+    display: none;
+  }
+
+  .no-message p+p {
+    display: initial;
+  }
+
+  .message {
+    width: 344px;
+    height: 67px;
+    top: -75px;
+  }
+
+  .message button {
+    top: calc(50% - 30px);
+    width: 200px;
+  }
+}
+
 @media screen and (max-width: 375px) and (max-height: 933px) {
   header h1 {
     display: none;
