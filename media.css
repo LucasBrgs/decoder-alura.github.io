@@ -1,4 +1,164 @@
-@media screen and (max-width: 1440px) and (max-height: 1024px) {
+@media screen and (max-width: 1440px) and (max-height: 800px) {
+  .info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+  }
+  
+  nav a img {
+    height: 30px;
+    width: 30px;  
+  }
+  
+  #logo {
+    margin: 10px 0 0 20px;
+  }
+  
+  #linkedin {
+    margin-right: 5px;
+  }
+  
+  #git {
+    margin-right: 20px;
+  }
+  
+  header h1 {
+    font-size: 30px;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+  }
+  
+  textarea {
+    resize: none;
+    outline: none;
+    font-size: 25px;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    padding: 12px;
+    border: none;
+    color: #0A3871;
+  }
+  
+  .input-txt {
+    height: 450px;
+    width: 650px;
+  }
+  
+  .output-txt {
+    position: relative;
+    height: 510px;
+    width: 400px;
+  }
+  
+  #input-area {
+    text-transform: lowercase;
+  }
+  
+  #input-area::placeholder {
+    text-transform: none;
+  }
+  
+  #output-area {
+    box-shadow: 2px 2px 2px black;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  
+  button {
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 15px;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+  }
+  
+  button:active {
+    transform: scale(0.98);
+  }
+  
+  #cripto {
+    background-color: #0A3871;
+    color: white;
+  }
+  
+  #decripto, #copy {
+    background-color: white;
+    color: #0A3871;
+    border-color: #0A3871;
+  }
+  
+  .attention {
+    display: flex;
+    margin-top: 10px;
+    gap: 5px;
+  }
+  
+  .atention p {
+    font-weight: bold;
+    color: #495057;
+  }
+  
+  .no-message {
+    position: absolute;
+    top: calc(50% - 139.60px);
+    width: 424px;
+    text-align: center;
+  }
+  
+  #img-no-message {
+    width: 250px;
+  }
+  
+  .no-message h2 {
+    font-size: 30px;
+    color: #343A40;
+  }
+  
+  .no-message p {
+    font-size: 20px;
+    color: #495057;
+  }
+  
+  .no-message p+p {
+    display: none;
+  }
+  
+  .message {
+    width: 420px;
+    height: 45px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: -49px;
+    background-color: white;
+    border-radius: 15px;
+  }
+  
+  .message button {
+    position: absolute;
+    top: calc(50% - 20px) ;
+  }
+}
+
+@media screen and (max-width: 1440px) and (min-height: 801px) {
   .input-txt {
     margin: 50px 0 0 30px;
     width: 750px;
