@@ -64,16 +64,9 @@ textarea {
   width: 400px;
 }
 
-#input-area {
-  text-transform: lowercase;
-}
-
-#input-area::placeholder {
-  text-transform: none;
-}
-
 #output-area {
   box-shadow: 2px 2px 2px black;
+  cursor: default;
 }
 
 .buttons {
@@ -158,4 +151,5 @@ button:active {
 .message button {
   position: absolute;
   top: calc(50% - 20px) ;
+  display: none;
 }

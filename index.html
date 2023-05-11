@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
@@ -38,13 +39,13 @@
                     <p>Somente letras minúsculas e sem acento!</p>
                 </div>
                 <div class="buttons">
-                    <button id="cripto">Criptografar</button>
-                    <button id="decripto">Descriptografar</button>
+                    <button id="cripto" onclick="crypto()">Criptografar</button>
+                    <button id="decrypto" onclick="decrypto()">Descriptografar</button>
                 </div>
             </div>
             <div class="output-txt">
-                <textarea id="output-area"></textarea>
-                <div class="no-message">
+                <textarea id="output-area" readonly></textarea>
+                <div class="no-message" id="no-message">
                     <img src="imagem-pessoa.svg" id="img-no-message">
                     <h2>Nenhuma mensagem encontrada</h2>
                     <p>Por favor, digite na caixa ao lado</p>
@@ -52,7 +53,7 @@
                 </div>
                 
                 <div class="message">
-                    <button id="copy">Copiar</button>
+                    <button id="copy" onclick="copy()">Copiar</button>
                 </div>
             </div>
         </section>
